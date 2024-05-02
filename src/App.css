@@ -1,0 +1,98 @@
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+#root {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.pokemon {
+  position: absolute;
+  left: 50px;
+  width: 15vh;
+  top: 130px;
+}
+
+.monster {
+  position: absolute;
+  left: 350px;
+  width: 15vh;
+  top: 40px;
+}
+
+h2.namePoke {
+  position: absolute;
+  left: 340px;
+  top: 150px;
+  color: black;
+}
+
+h2.nameMons {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  color: black;
+}
+
+/* button.skill_0 {
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  left: 20px;
+  height: 50px;
+  width: 250px;
+  background-color: DarkRed;
+}
+
+button.skill_1 {
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  left: 280px;
+  height: 50px;
+  width: 250px;
+  background-color: MidnightBlue;
+} */
+
+.dropdown {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 30px;
+  width: 150px;
+  background-color: rgb(10, 169, 218);
+  color: black;
+  font-size: 15px;
+  top: 0px;
+  left: 406px;
+}
+.skillList {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 270px;
+  left: 23px;
+  gap: 10px;
+}
+
+.skillName {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: darkblue;
+}
+.skillName:hover {
+  background-color: blue;
+}
+
+button {
+  display: flex;
+  height: 40px;
+  width: 250px;
+  border: none;
+}
