@@ -1,4 +1,4 @@
-![image](https://github.com/BelleChanisME/pokemon-api/assets/145796679/fe2ffb5f-3cf4-4dae-ae18-8f1d164d66a2)# React + Vite
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
